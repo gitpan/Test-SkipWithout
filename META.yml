@@ -1,0 +1,27 @@
+---
+abstract: 'Skip a test if a module is missing, or an insufficient version.'
+author:
+  - 'Chad Granum <exodist7@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Test-SkipWithout
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Test::More: '0'
+resources:
+  bugtracker: http://github.com/exodist/Test-SkipWithout/issues/
+  homepage: http://github.com/exodist/Test-SkipWithout/
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/exodist/Test-SkipWithout/
+version: 0.001_001
